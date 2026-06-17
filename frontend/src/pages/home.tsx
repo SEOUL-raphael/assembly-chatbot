@@ -6,7 +6,7 @@ import { Send, Building2, User, Bot, AlertCircle, ChevronDown, ChevronUp, Loader
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://assembly-chatbot-api.SEOUL-raphael.workers.dev";
+const API_URL = import.meta.env.VITE_API_URL || "https://assembly-chatbot-api.neoulneoul.workers.dev";
 
 const SAMPLE_QUESTIONS = [
   "법제사법위원회 소속 의원을 알려주세요",
