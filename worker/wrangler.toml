@@ -2,6 +2,9 @@ name = "assembly-chatbot-api"
 main = "src/index.ts"
 compatibility_date = "2025-04-30"
 compatibility_flags = ["nodejs_compat"]
+account_id = "4543f50f1421947e6f192cb3b2d1d1eb"
 
 [vars]
 ALLOWED_ORIGIN = "https://seoul-raphael.github.io"
+AI_INTEGRATIONS_OPENAI_BASE_URL = "https://api.minimaxi.chat/v1"
+AI_MODEL = "MiniMax-Text-01"

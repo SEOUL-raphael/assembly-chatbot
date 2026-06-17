@@ -10,6 +10,7 @@ export interface Env {
   LAWMAKING_OC: string;
   AI_INTEGRATIONS_OPENAI_BASE_URL: string;
   AI_INTEGRATIONS_OPENAI_API_KEY: string;
+  AI_MODEL: string;
   ALLOWED_ORIGIN: string;
 }
 
@@ -619,7 +620,7 @@ export default {
             Authorization: `Bearer ${openaiKey}`,
           },
           body: JSON.stringify({
-            model: "gpt-5.2",
+            model: env.AI_MODEL || "MiniMax-Text-01",
             max_completion_tokens: 8192,
             messages: chatMessages,
             tools: TOOLS,
